@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+* {
+    background-image: url
+    ("background.jpg");
+    background-repeat: no-repeat;
+}
+
+/* Font families and sized */
+.font-examp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Formatting Text */
+/* Parent then Child when selecting and targetting elements */
+.format-examp .bold {
+    font-weight: bold;
+}
+
+.format-examp .italic {
+    font-style: italic;
+}
+
+.format-examp .underline {
+    text-decoration: underline;
+}
+
+/* Text Alignment */
+.alignment-examp {
+    text-align: center;
+}
+
+/* Text Decoration */
+.decoration-examp {
+    text-decoration: line-through;
+}
+
+/* Line Height and Letter Spacing */
+.line-spacing-examp {
+    line-height: 1.5;
+    letter-spacing: 2px;
+    background-color: aqua;
+}
+
+/* Text Shadows */
+.shadow-examp {
+    text-shadow: 2px 5px 4px red;
+    font-size: 30px;
+}
+
+.import-font-examp {
+    font-family: 'Merienda', cursive;
+}

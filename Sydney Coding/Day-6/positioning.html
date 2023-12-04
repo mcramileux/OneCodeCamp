@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale1.0">
+        <title>Positioning Elements</title>
+
+        <link rel="stylesheet" href="positioning.css">
+    </head>
+
+    <body>
+        <!-- Positioning elements allows you to control where elements are placed on the page -->
+        <!-- There are 4 main types of positioning: -->
+        <!-- Static -- default setting; elements are positioned in the normal flow of the page -->
+        <!-- Relative -- elements are positioned relative to their normal position -->
+        <!-- Absolute -- elements are positioned relative to their nearest positioned ancestor -->
+        <!-- Fixed -- elements are positioned relative to the browser window -->
+
+        <!-- FROM THE NOTES -->
+        <!--
+            Static -- default positioning; follows normal document flow
+            Relative -- positions an element relative to its normal position
+            Absolute -- positions an element relative to its nearest positioned ancestor; takes an element out of its normal flow of the page and positions it precisely where you want it, regardless of other elements
+            Fixed -- locks an element to a specific location, making it visible even as the page scrolls
+            Sticky -- mix between the relative and fixed positions. Originally treated as relative until a specific point is met, then it will be treated as fixed.
+
+        -->
+
+        <h1> Positioning Elements Example </h1>
+        <br/>
+        <div class="static"> This is a Static Element</div>
+        <br/>
+        <div class="relative"> This is a Relative Element</div>
+        <br/>
+        <div class="absolute"> This is an Absolute Element</div>
+        <br/>
+        <div class="fixed"> This is a Fixed Element</div>
+        <br/>
+        <div class="sticky"> This is a Sticky Element</div>
+
+        <h1> Floats </h1>
+
+        <div class="container">
+            <br/>
+            <div class="float-left"> Float Left </div>
+            <br/>
+            <div class="float-right"> Float Right </div>
+            <br/>
+            <div class="clear-float"> Clear Right </div>
+        </div>
+    </body>
+</html>

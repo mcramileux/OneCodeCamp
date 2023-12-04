@@ -1,0 +1,21 @@
+h3 {
+    background-color: gray;
+    margin: 10px 40px 50px 20px;
+    padding: 6px 11px 10px 4px;
+    border: 3px solid blue;
+}
+
+.box {
+    margin-right: 15px;
+    padding-top: 20px;
+    border-style: dotted dashed solid double;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: red;
+}
+
+p {
+    width: 100px;
+    height: 250px;
+    background-color: cadetblue;
+}

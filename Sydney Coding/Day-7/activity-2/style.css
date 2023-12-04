@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    /* Set the font family for the body text */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Set the margin and padding of the body to 0 */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    /* Set the background color of the header */
+    background-color: cornflowerblue;
+    /* Add padding to the header */
+    padding: 20px;
+}
+
+h1 {
+    /* Set the color of the heading text */
+    color:indigo;
+    /* Remove the margin from the heading */
+    margin: 0;
+}
+
+nav ul {
+    /* Remove the default bullet points from the unordered list */
+    list-style-type: none;
+    /* Remove the padding from the unordered list */
+    padding: 0;
+    /* Add margin to the unordered list */
+    margin: 0;
+}
+
+nav li {
+    /* Display the list items inline */
+    display: inline;
+    /* Add margin to the list items */
+    margin: 0 10px;
+}
+
+nav li a {
+    /* Set the color and remove text decoration of the links */
+    color:orange;
+    text-decoration: none;
+}
+
+    /* Flexbox Styles */
+#flexbox-section {
+    /* Add padding to the flexbox section */
+    padding: 20px;
+    /* Set the background color of the flexbox section */
+    background-color: cornflowerblue;
+
+}
+
+.flex-container {
+    /* Create a flex container */
+    /* flex-direction: column; */
+    display: flex;
+    /* Enable wrapping of flex items */
+    flex-wrap: wrap;
+    /* Distribute flex items evenly with space between them */
+    justify-content: space-between;
+}
+
+.flex-item {
+    /* Set background color for flex items */
+    background-color:darkkhaki;
+    /* Add padding to the flex items */
+    padding: 10px;
+    /* Add margin to the flex items */
+    margin: 10px;
+    /* Set the flex basis for flex items */
+    flex-basis: 30%;
+}
+
+/* Grid Styles */
+    #grid-section {
+    /* Add padding to the grid section */
+    padding: 20px;
+    /* Set the background color of the grid section */
+    background-color:coral;
+    
+}
+
+    
+.grid-container {
+    /* Create a grid container */
+    display: grid;
+    /* Define the number of columns and their sizes */
+    columns: 1fr 1fr 1fr;
+    /* Set the gap between grid items */
+    gap: 10px;   
+}
+    
+.grid-item {
+        /* Set background color for grid items */
+        background-color:dodgerblue;
+        /* Add padding to the grid items */
+        padding: 10px;
+}
+    
+@media screen and (max-width: 768px) {
+        /* Responsive Styles */
+        .flex-container {
+        /* Change the flex direction to a column layout */
+        flex-direction: column;
+
+        .flex-item {
+        /* Adjust the flex basis of flex items */
+        flex-basis: 100%;
+        }
+        }
+        .grid-container {
+        /* Modify the grid template columns for smaller screens */
+        grid-template-columns:min-content;
+        }
+    
+}
+    
+    

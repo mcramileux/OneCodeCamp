@@ -1,0 +1,22 @@
+.block {
+    display: block;
+    background-color: blue;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline;
+    background-color: red;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    /* display: none; */
+    background-color: pink;
+    width: 150px;
+    padding: 10px;
+}

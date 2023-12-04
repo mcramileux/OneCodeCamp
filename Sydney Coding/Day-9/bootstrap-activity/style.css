@@ -1,0 +1,23 @@
+/* css */
+*{
+    box-sizing: border-box;
+}
+
+.carousel-item{
+    height: 300px;
+    width: 400px;
+    align-items:center;
+    margin: 10px;
+}
+
+/* .carousel-item img {
+    height: 300px;
+    width: 400px;
+    align-items:center;
+    margin: 10px;
+    /* margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 1000px;
+    margin-bottom: 1000px;
+     */
+     

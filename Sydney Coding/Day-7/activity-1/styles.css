@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+/* General Styles */
+body {
+    /* Add your font-family, margin, and padding here */
+    font-family: 'Merriweather', serif;
+    margin: 15px 10px;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    /* Add your background-color and padding here */
+    background-color:darkseagreen;
+    padding: 5px;
+  }
+  
+  .site-title {
+    /* Add your color, font-size, and margin here */
+    color:black;
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .navigation {
+    /* Add your list-style-type, padding, and margin here */
+    list-style-type:none;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .navigation li {
+    /* Add your display and margin-right here */
+    display:flex;
+    margin-right: 20px;
+  }
+  
+  .navigation li a {
+    /* Add your color and text-decoration here */
+    color:brown;
+    text-decoration:underline;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    /* Add your background-image, background-size, background-position, padding, text-align, and color here */
+    /* background-image: url(https://unsplash.com/photos/an-abstract-painting-with-orange-and-blue-colors-0ZPSX_mQ3xI)
+    background-size:image-set(https://unsplash.com/photos/an-abstract-painting-with-orange-and-blue-colors-0ZPSX_mQ3xI)
+    background-position:
+    padding: ;
+    text-align: ;
+    color: ; */
+
+  }
+  
+  .hero-title {
+    /* Add your font-size, margin-top, and margin-bottom here */
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    /* Add your font-size, margin-top, and margin-bottom here */
+    font-size: 18px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-button {
+    /* Add your background-color, color, text-decoration, padding, font-size, and border-radius here */
+    background-color: ;
+    color: ;
+    text-decoration:;
+    padding: ;
+    font-size: 18px;
+    border-radius:;
+  }
+  
+  /* About Section Styles */
+  #about {
+    /* Add your padding, text-align, and background-color here */
+    padding
+    text-align
+    background-color
+  }
+  
+  .about-content {
+    /* Add your display, align-items, and justify-content here */
+    display
+    align-items
+    justify-content
+  }
+  
+  .profile-image {
+    /* Add your width, border-radius, and margin-right here */
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .about-text {
+    /* Add your font-size here */
+    font-size: 18px;
+  }
+  
+  /* Services Section Styles */
+  #services {
+    /* Add your padding and text-align here */
+    padding
+    text-align
+  }
+  
+  .service {
+    /* Add your margin-bottom here */
+    margin-bottom:10px;
+  }
+  
+  .service-icon {
+    /* Add your width and margin-bottom here */
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .service-title {
+    /* Add your font-size and margin-bottom here */
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    /* Add your font-size here */
+    font-size: 18px;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    /* Add your padding, text-align, and background-color here */
+    padding
+    text-align
+    background-color
+  }
+  
+  .form-group {
+    /* Add your margin-bottom here */
+    margin-bottom: 10px;
+  }
+  
+  label {
+    /* Add your display, font-size, font-weight, and margin-bottom here */
+    display
+    font-size: 18px;
+    font-weight
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    /* Add your width, padding, font-size, and border-radius here */
+    width
+    padding
+    font-size: 18px;
+    border-radius
+  }
+  
+  .form-button {
+    /* Add your background-color, color, border, padding, font-size, border-radius, and cursor here */
+    background-color
+    color
+    border
+    padding
+    font-size: 14px;
+    border-radius
+    cursor
+  }
+  
+  /* Footer Styles */
+  footer {
+    /* Add your background-color, padding, and text-align here */
+    background-color: darkseagreen;
+    padding: 5px;
+    text-align
+  }
+  
+  footer p {
+    /* Add your color, font-size, and margin here */
+    color: brown;
+    font-size: 12px;
+    margin: 10px;
+  }

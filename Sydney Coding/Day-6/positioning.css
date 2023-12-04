@@ -1,0 +1,70 @@
+.static {
+    position: static;
+    background-color: aqua;
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.relative {
+    position: relative;
+    background-color:purple;
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: yellow;
+    width: 150px;
+    padding: 10px;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: pink;
+    width: 200px;
+    padding: 10px;
+    top: 20px;
+    right: 20px;
+}
+
+.sticky {
+    position: sticky;
+    background-color: grey;
+    width: 200px;
+    padding: 10px;
+    top: 20px;
+    right: 20px;
+}
+
+/* Floats */
+
+.container {
+    border: 2px solid black;
+}
+
+.float-left {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    margin-right: 10px;
+}
+
+.float-right {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: orchid;
+    margin-left: 10px;
+}
+
+.clear-float {
+    clear: both;
+    background-color: darkkhaki;
+    padding: 10px;
+}

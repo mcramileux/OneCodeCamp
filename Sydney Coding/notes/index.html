@@ -1,0 +1,73 @@
+<!--Intro to Images and Table-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <img src="" alt="Award">
+    <img src="" alt="Coffee"> -->
+
+    <!--Adding border with number, the higher the number the thicker the border-->
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Location</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lisa</td>
+                <td>25yo</td>
+                <td>Melbourne</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>40yo</td>
+                <td>Perth</td>
+            </tr>
+
+        </tbody> 
+        <tfoot>
+            <tr>
+                <!--Colspan is to make the column fit equally to the table-->
+                <td colspan="3">Total: 2 person</td>
+            </tr>
+        </tfoot>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>Location</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lisa</td>
+                    <td rowspan="2">25yo</td>
+                    <td>Melbourne</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <!-- <td>40yo</td> -->
+                    <td>Perth</td>
+                </tr>
+    
+            </tbody> 
+            <tfoot>
+                <tr>
+                    <!--Colspan is to make the column fit equally to the table-->
+                    <td colspan="3">Total: 2 person</td>
+                </tr>
+            </tfoot>
+    </table>
+</body>
+</html>

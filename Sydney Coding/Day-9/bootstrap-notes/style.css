@@ -1,0 +1,24 @@
+.col-1 {
+    border: 1px solid orange;
+}
+
+.container {
+    border: 1.5px solid red;
+}
+
+.col {
+    border: 1.5px solid blue;
+}
+
+.main_column {
+    border: 1px solid green;
+}
+
+.nested_col {
+    border: 1px solid yellowgreen;
+}
+
+.main_container {
+    border: 1px dashed red;
+    padding: 10px;
+}
