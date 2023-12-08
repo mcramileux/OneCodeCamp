@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title> SELECTORS </title>
+    <style>
+        /*Universal Selector*/
+        * {
+            color: red;
+            background-color: beige;
+        }
+
+        #sample-id {
+            color: yellow;
+        }
+
+        /*Pseudo-element*/
+        .sample-class::before {
+            color: orange;
+            content: "This should show before the other content";
+        }
+
+        .attri-sample {
+            font-size: 20px;
+        }
+
+        /*ID Selector*/
+        #para1 {
+            color: green;
+
+        }
+
+        /*Attribute Selector*/
+        a[href="google.com"] {
+            color: blue;
+        }
+
+        /*Grouping Selector*/
+        div,
+        a {
+            color: purple;
+            font-weight: bold;
+        }
+
+        /*Pseudo-classes*/
+        a:hover {
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p class="sample-class" id="sample-id"> Class Selectors </p>
+
+    <p id="para1"> ID Selector </p>
+
+    <div class="attri-sample"> Attribute Selectors
+        <br>
+        <a href="google.com">Google </a>
+    </div>
+</body>
+
+</html>

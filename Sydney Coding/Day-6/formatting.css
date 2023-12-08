@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
 * {
-    background-image: url
-    ("background.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
 }
 
@@ -13,7 +12,7 @@
 }
 
 /* Formatting Text */
-/* Parent then Child when selecting and targetting elements */
+/* Parent then Child when selecting and targeting elements */
 .format-examp .bold {
     font-weight: bold;
 }
@@ -45,7 +44,7 @@
 
 /* Text Shadows */
 .shadow-examp {
-    text-shadow: 2px 5px 4px red;
+    text-shadow: 2px 5px 15px red;
     font-size: 30px;
 }
 
